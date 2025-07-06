@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 0 0 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 62px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #3a6ee8;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans', Arial, sans-serif;
+  transition: color 0.16s;
+}
+.logo:hover, .logo:focus {
+  color: #1e4bb8;
+}

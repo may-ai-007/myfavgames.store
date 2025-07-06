@@ -1,0 +1,16 @@
+{
+    "footer": {
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "contact": "Contact",
+      "language": "Language",
+      "country": "Country/Region",
+      "copyright": "© 2024 MyFavGames. All rights reserved."
+    },
+    "search_placeholder": "Search games...",
+    "not_found": "No games found",
+    "start_game": "Start Game",
+    "play_in_new_window": "Play in new window",
+    "developer": "Developer",
+    "related_games": "Related Games"
+  }
