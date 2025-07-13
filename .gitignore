@@ -7,6 +7,8 @@
 !/fav.svg
 !/index.html
 !/vite.svg
+!/操作手册.md
+!/deploy.sh
 
 # 忽略这些特定文件
 .DS_Store
