@@ -1,14 +1,16 @@
 # 忽略所有文件和目录
 /*
 
-# 不忽略这些文件和目录
-!/.gitignore
+# 只保留这些编译后的文件和目录
 !/assets/
 !/fav.svg
 !/index.html
 !/vite.svg
-!/操作手册.md
-!/deploy.sh
 
 # 忽略这些特定文件
 .DS_Store
+**/.DS_Store
+/dist/
+/操作手册.md
+/deploy.sh
+/不需要的文件清单.md
