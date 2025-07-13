@@ -1,0 +1,32 @@
+# 排除源代码文件
+/src/
+/public/
+
+# 排除配置文件
+/*.config.js
+/*.config.ts
+/tsconfig*.json
+/vite.config.ts
+/eslint.config.js
+
+# 排除依赖和构建缓存
+/node_modules/
+/.vite/
+/.eslintcache
+/.idea/
+/.vscode/
+/.DS_Store
+/.env*
+
+# 排除包管理器文件
+/package.json
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# 排除其他文件
+/README.md
+/LICENSE
+
+# 不排除dist目录（构建输出）
+!/dist/
