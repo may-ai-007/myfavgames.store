@@ -1,16 +1,34 @@
-# 忽略所有文件和目录
-/*
+# Dependencies and build files
+node_modules/
+dist/
+.cache/
+build/
 
-# 只保留这些编译后的文件和目录
-!/assets/
-!/fav.svg
-!/index.html
-!/vite.svg
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# 忽略这些特定文件
+# System files
 .DS_Store
-**/.DS_Store
-/dist/
-/操作手册.md
-/deploy.sh
-/不需要的文件清单.md
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# SEO documentation (internal only)
+SEO-Guide.md
