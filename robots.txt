@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /assets/internal/
+
+Sitemap: https://myfavgames.store/sitemap.xml 
